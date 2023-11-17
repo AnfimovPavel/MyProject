@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>506</width>
+    <height>296</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>461</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="players_layout">
+    <item>
+     <widget class="QLineEdit" name="player_1_name">
+      <property name="styleSheet">
+       <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;
+color: rgb(170, 85, 255);</string>
+      </property>
+      <property name="text">
+       <string>Паша</string>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="player_2_name">
+      <property name="styleSheet">
+       <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;
+color: rgb(170, 85, 255);</string>
+      </property>
+      <property name="text">
+       <string>Стёпа</string>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="dragEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="player_3_name">
+      <property name="styleSheet">
+       <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;
+color: rgb(170, 85, 255);</string>
+      </property>
+      <property name="text">
+       <string>Лера</string>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>461</width>
+     <height>68</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="player_1">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#9e794f;&quot;&gt;Игрок 1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="player_3">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#9e794f;&quot;&gt;Игрок 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="player_2">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#9e794f;&quot;&gt;Игрок 3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QComboBox" name="complexity_box">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>30</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(79, 135, 62);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="complexity_label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(79, 135, 62);
+
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Категория:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_start">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>240</y>
+     <width>250</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;
+color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>НАЧАТЬ ИГРУ!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_background">
+   <property name="geometry">
+    <rect>
+     <x>-4</x>
+     <y>-7</y>
+     <width>521</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url('Фон для настроек');</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_background</zorder>
+  <zorder>horizontalLayoutWidget_2</zorder>
+  <zorder>horizontalLayoutWidget_3</zorder>
+  <zorder>complexity_box</zorder>
+  <zorder>complexity_label</zorder>
+  <zorder>button_start</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
